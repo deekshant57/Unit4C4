@@ -1,5 +1,7 @@
 const mongoose = require("mongoose");
 
+const bcrypt = require("bcrypt");
+
 // firstName ( String, required)
 // lastName ( String, optional)
 // email ( String, required)
